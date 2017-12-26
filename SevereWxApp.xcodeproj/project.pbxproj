@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4C0F19481FF2BCF70020DC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F19471FF2BCF70020DC8F /* AppDelegate.swift */; };
-		4C0F194A1FF2BCF70020DC8F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F19491FF2BCF70020DC8F /* FirstViewController.swift */; };
-		4C0F194C1FF2BCF70020DC8F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F194B1FF2BCF70020DC8F /* SecondViewController.swift */; };
 		4C0F194F1FF2BCF70020DC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0F194D1FF2BCF70020DC8F /* Main.storyboard */; };
 		4C0F19511FF2BCF70020DC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0F19501FF2BCF70020DC8F /* Assets.xcassets */; };
 		4C0F19541FF2BCF70020DC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0F19521FF2BCF70020DC8F /* LaunchScreen.storyboard */; };
 		4C0F195F1FF2BCF70020DC8F /* SevereWxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F195E1FF2BCF70020DC8F /* SevereWxAppTests.swift */; };
 		4C0F196A1FF2BCF70020DC8F /* SevereWxAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F19691FF2BCF70020DC8F /* SevereWxAppUITests.swift */; };
+		4C0F19781FF2BFCD0020DC8F /* ThunderstormsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */; };
+		4C0F197A1FF2C2950020DC8F /* WinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F19791FF2C2950020DC8F /* WinterViewController.swift */; };
+		4C16984E1FF2C9900051BEA7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C16984D1FF2C9900051BEA7 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		4C0F19441FF2BCF70020DC8F /* SevereWxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevereWxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0F19471FF2BCF70020DC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C0F19491FF2BCF70020DC8F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4C0F194B1FF2BCF70020DC8F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4C0F194E1FF2BCF70020DC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C0F19501FF2BCF70020DC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C0F19531FF2BCF70020DC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		4C0F19651FF2BCF70020DC8F /* SevereWxAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevereWxAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0F19691FF2BCF70020DC8F /* SevereWxAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevereWxAppUITests.swift; sourceTree = "<group>"; };
 		4C0F196B1FF2BCF70020DC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderstormsViewController.swift; sourceTree = "<group>"; };
+		4C0F19791FF2C2950020DC8F /* WinterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterViewController.swift; sourceTree = "<group>"; };
+		4C16984D1FF2C9900051BEA7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		4C0F19461FF2BCF70020DC8F /* SevereWxApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */,
+				4C0F19791FF2C2950020DC8F /* WinterViewController.swift */,
 				4C0F19471FF2BCF70020DC8F /* AppDelegate.swift */,
-				4C0F19491FF2BCF70020DC8F /* FirstViewController.swift */,
-				4C0F194B1FF2BCF70020DC8F /* SecondViewController.swift */,
 				4C0F194D1FF2BCF70020DC8F /* Main.storyboard */,
 				4C0F19501FF2BCF70020DC8F /* Assets.xcassets */,
 				4C0F19521FF2BCF70020DC8F /* LaunchScreen.storyboard */,
 				4C0F19551FF2BCF70020DC8F /* Info.plist */,
+				4C16984D1FF2C9900051BEA7 /* MapViewController.swift */,
 			);
 			path = SevereWxApp;
 			sourceTree = "<group>";
@@ -262,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0F194C1FF2BCF70020DC8F /* SecondViewController.swift in Sources */,
 				4C0F19481FF2BCF70020DC8F /* AppDelegate.swift in Sources */,
-				4C0F194A1FF2BCF70020DC8F /* FirstViewController.swift in Sources */,
+				4C0F197A1FF2C2950020DC8F /* WinterViewController.swift in Sources */,
+				4C0F19781FF2BFCD0020DC8F /* ThunderstormsViewController.swift in Sources */,
+				4C16984E1FF2C9900051BEA7 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
