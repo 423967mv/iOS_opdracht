@@ -16,6 +16,8 @@
 		4C0F19781FF2BFCD0020DC8F /* ThunderstormsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */; };
 		4C0F197A1FF2C2950020DC8F /* WinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F19791FF2C2950020DC8F /* WinterViewController.swift */; };
 		4C16984E1FF2C9900051BEA7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C16984D1FF2C9900051BEA7 /* MapViewController.swift */; };
+		4C43177F1FF666E3002002E4 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43177E1FF666E3002002E4 /* Section.swift */; };
+		4C4317811FF668D1002002E4 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderstormsViewController.swift; sourceTree = "<group>"; };
 		4C0F19791FF2C2950020DC8F /* WinterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterViewController.swift; sourceTree = "<group>"; };
 		4C16984D1FF2C9900051BEA7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4C43177E1FF666E3002002E4 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		4C0F19461FF2BCF70020DC8F /* SevereWxApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C43177D1FF666BA002002E4 /* ExpandableHeaderView */,
 				4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */,
 				4C0F19791FF2C2950020DC8F /* WinterViewController.swift */,
 				4C0F19471FF2BCF70020DC8F /* AppDelegate.swift */,
@@ -129,6 +134,15 @@
 				4C0F196B1FF2BCF70020DC8F /* Info.plist */,
 			);
 			path = SevereWxAppUITests;
+			sourceTree = "<group>";
+		};
+		4C43177D1FF666BA002002E4 /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				4C43177E1FF666E3002002E4 /* Section.swift */,
+				4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */,
+			);
+			path = ExpandableHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C43177F1FF666E3002002E4 /* Section.swift in Sources */,
+				4C4317811FF668D1002002E4 /* ExpandableHeaderView.swift in Sources */,
 				4C0F19481FF2BCF70020DC8F /* AppDelegate.swift in Sources */,
 				4C0F197A1FF2C2950020DC8F /* WinterViewController.swift in Sources */,
 				4C0F19781FF2BFCD0020DC8F /* ThunderstormsViewController.swift in Sources */,
