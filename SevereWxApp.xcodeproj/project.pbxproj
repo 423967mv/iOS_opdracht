@@ -135,12 +135,12 @@
 				4C43177D1FF666BA002002E4 /* ExpandableHeaderView */,
 				4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */,
 				4C0F19791FF2C2950020DC8F /* WinterViewController.swift */,
+				4C16984D1FF2C9900051BEA7 /* MapViewController.swift */,
 				4C0F19471FF2BCF70020DC8F /* AppDelegate.swift */,
 				4C0F194D1FF2BCF70020DC8F /* Main.storyboard */,
 				4C0F19501FF2BCF70020DC8F /* Assets.xcassets */,
 				4C0F19521FF2BCF70020DC8F /* LaunchScreen.storyboard */,
 				4C0F19551FF2BCF70020DC8F /* Info.plist */,
-				4C16984D1FF2C9900051BEA7 /* MapViewController.swift */,
 			);
 			path = SevereWxApp;
 			sourceTree = "<group>";

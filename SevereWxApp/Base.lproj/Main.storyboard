@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Winter-->
+        <!--Categories-->
         <scene sceneID="XPD-L6-ZS0">
             <objects>
                 <viewController id="jhz-IC-i2J" customClass="WinterViewController" customModule="SevereWxApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,27 +19,58 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="y8f-Tf-4Sr">
-                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="s7R-sV-TAN">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s7R-sV-TAN" id="Ke1-eT-u3y">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="labelCellWinter" textLabel="Ag2-88-gQj" style="IBUITableViewCellStyleDefault" id="kd2-re-Rn9">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kd2-re-Rn9" id="SHX-Jt-nq3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ag2-88-gQj">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="jhz-IC-i2J" id="Gq4-iH-K1K"/>
+                                    <outlet property="delegate" destination="jhz-IC-i2J" id="dbx-vu-He4"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.77769874779329418" green="1" blue="0.91252830892134873" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="y8f-Tf-4Sr" firstAttribute="leading" secondItem="olV-Pj-7cr" secondAttribute="leading" id="Iib-Xk-QgT"/>
-                            <constraint firstAttribute="trailing" secondItem="y8f-Tf-4Sr" secondAttribute="trailing" id="i6W-QG-owG"/>
-                            <constraint firstItem="y8f-Tf-4Sr" firstAttribute="bottom" secondItem="fzo-Xd-GJa" secondAttribute="bottom" id="j3e-02-fG5"/>
-                            <constraint firstItem="y8f-Tf-4Sr" firstAttribute="top" secondItem="fzo-Xd-GJa" secondAttribute="top" id="wUe-pU-Sl0"/>
+                            <constraint firstItem="y8f-Tf-4Sr" firstAttribute="bottom" secondItem="fzo-Xd-GJa" secondAttribute="bottom" id="Fdd-cQ-7eb"/>
+                            <constraint firstItem="y8f-Tf-4Sr" firstAttribute="leading" secondItem="olV-Pj-7cr" secondAttribute="leading" id="TB1-Ck-2Kt"/>
+                            <constraint firstAttribute="trailing" secondItem="y8f-Tf-4Sr" secondAttribute="trailing" id="fWR-gG-dkx"/>
+                            <constraint firstItem="y8f-Tf-4Sr" firstAttribute="top" secondItem="fzo-Xd-GJa" secondAttribute="top" id="fWw-YH-L15"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fzo-Xd-GJa"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Winter" image="winter" selectedImage="winter" id="Djj-FJ-AZF"/>
+                    <navigationItem key="navigationItem" title="Categories" id="9XP-SK-XuY"/>
+                    <connections>
+                        <outlet property="tableView" destination="y8f-Tf-4Sr" id="Z4S-Wl-OLK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z8k-n5-bRl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1268" y="631.93403298350825"/>
+            <point key="canvasLocation" x="2162.4000000000001" y="631.93403298350825"/>
         </scene>
         <!--Categories-->
         <scene sceneID="g7W-EQ-aS7">
@@ -117,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z4g-I6-Hs9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1852" y="-155"/>
+            <point key="canvasLocation" x="2356" y="-155"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -130,7 +161,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="36r-Z8-fDj" kind="relationship" relationship="viewControllers" id="gHn-X1-Jej"/>
-                        <segue destination="jhz-IC-i2J" kind="relationship" relationship="viewControllers" id="n0G-W2-O9l"/>
+                        <segue destination="XZ3-GB-sTh" kind="relationship" relationship="viewControllers" id="n0G-W2-O9l"/>
                         <segue destination="nC4-Gz-twu" kind="relationship" relationship="viewControllers" id="uzI-OX-11Q"/>
                     </connections>
                 </tabBarController>
@@ -156,6 +187,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sBG-iB-3Yj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-367" y="632"/>
+        </scene>
+        <!--Winter-->
+        <scene sceneID="Kwb-MO-tl9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XZ3-GB-sTh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Winter" image="winter" selectedImage="winter" id="Djj-FJ-AZF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0xu-Ia-OK2">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jhz-IC-i2J" kind="relationship" relationship="rootViewController" id="dOP-F9-xtZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ypf-Oo-sbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1399" y="632"/>
         </scene>
     </scenes>
     <resources>
