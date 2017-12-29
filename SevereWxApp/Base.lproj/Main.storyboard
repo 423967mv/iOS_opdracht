@@ -144,11 +144,11 @@
                         <color key="backgroundColor" red="1" green="0.61624115946998115" blue="0.28990924639706994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GPY-M9-dMv"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Observationmap" id="fVr-ah-7kR"/>
+                    <tabBarItem key="tabBarItem" title="Observationmap" image="map" selectedImage="map" id="fVr-ah-7kR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z4g-I6-Hs9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2356" y="-155"/>
+            <point key="canvasLocation" x="2162" y="-155"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -209,6 +209,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="map" width="25" height="25"/>
         <image name="thunderstorm" width="25" height="25"/>
         <image name="winter" width="25" height="25"/>
     </resources>
