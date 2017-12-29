@@ -1,0 +1,6 @@
+framework module Pods_SevereWxApp {
+  umbrella header "Pods-SevereWxApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

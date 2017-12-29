@@ -46,12 +46,12 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 44
+        return 45
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if (sections[indexPath.section].expanded){
-            return 44
+            return 45
         }
         // indien niet uitgeklapt is de hoogte 0
         else {
@@ -86,7 +86,11 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
             tableView.reloadRows(at: [IndexPath(row: i, section: section)], with: .automatic)
         }
         tableView.endUpdates()
-        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // TODO: actie bij het aanklikken van een rij
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 
 }
