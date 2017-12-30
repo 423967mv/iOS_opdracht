@@ -23,10 +23,10 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
                 expanded: false),
         Section(obsType: "🎾 Large Hail",
                 obsTypeGradations: ["2-5cm", "5cm+"],
-                expanded: false),
+                expanded: true),
         Section(obsType: "💨 Wind Gusts",
                 obsTypeGradations: ["Large branches downed", "Trees/power lines downed", "Buildings damaged"],
-                expanded: false)
+                expanded: true)
     ]
     
     // Haal huidige locatie op voor doorgeven observatie
@@ -69,6 +69,7 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
         
         // vul met dummyData
         let obsRepo = ObservationRepo()
+        obsRepo.deleteAllData()
         obsRepo.dummyObservations()
     }
     

@@ -83,6 +83,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yc1-z5-C6d">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.99944943189620972" green="0.98183459043502808" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="zsm-UT-l0U">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -116,7 +117,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.68331401363320632" green="1" blue="0.60078661134873013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99944943189620972" green="0.98183459043502808" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Yc1-z5-C6d" firstAttribute="leading" secondItem="3Hz-QV-1RW" secondAttribute="leading" id="b2G-Eo-G72"/>
                             <constraint firstItem="Yc1-z5-C6d" firstAttribute="top" secondItem="M0p-05-Wzg" secondAttribute="top" id="m1c-rp-GNa"/>
@@ -170,11 +171,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1Eo-yy-zS1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Observations" image="first" selectedImage="first" id="leu-dT-Hr8"/>
+                    <navigationItem key="navigationItem" title="Observations Overview" id="Igd-oU-Nrb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PHE-Dv-qee" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2160.8000000000002" y="-934.18290854572717"/>
+            <point key="canvasLocation" x="2980" y="-935"/>
         </scene>
         <!--Map-->
         <scene sceneID="Tjj-85-bSH">
@@ -205,7 +206,7 @@
                         <segue destination="36r-Z8-fDj" kind="relationship" relationship="viewControllers" id="gHn-X1-Jej"/>
                         <segue destination="XZ3-GB-sTh" kind="relationship" relationship="viewControllers" id="n0G-W2-O9l"/>
                         <segue destination="nC4-Gz-twu" kind="relationship" relationship="viewControllers" id="uzI-OX-11Q"/>
-                        <segue destination="z18-Og-Rg3" kind="relationship" relationship="viewControllers" id="cbK-Ak-sqU"/>
+                        <segue destination="yJ9-JA-qbd" kind="relationship" relationship="viewControllers" id="cbK-Ak-sqU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -249,6 +250,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ypf-Oo-sbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1399" y="632"/>
+        </scene>
+        <!--Observations-->
+        <scene sceneID="IRj-aM-uNn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yJ9-JA-qbd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Observations" image="first" selectedImage="first" id="leu-dT-Hr8"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RBA-xX-WWS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="z18-Og-Rg3" kind="relationship" relationship="rootViewController" id="rTo-z5-JJC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qwf-Vg-Lr5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2160" y="-934.632683658171"/>
         </scene>
     </scenes>
     <resources>

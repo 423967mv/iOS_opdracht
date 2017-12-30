@@ -17,25 +17,25 @@ class ObservationRepo {
         let realm = try! Realm()
         
         let obs1 = Observation()
-        obs1.obsType="Winter"
+        obs1.obsType="❄️ Snowfall"
         obs1.gradation="Heavy Snow"
         obs1.lat=51.12
         obs1.lon=3.00
         
         let obs2 = Observation()
-        obs2.obsType="Winter"
+        obs2.obsType="⛸️ Ice"
         obs2.gradation="Freezing Rain"
         obs2.lat=51.50
         obs2.lon=3.75
         
         let obs3 = Observation()
-        obs3.obsType="Winter"
+        obs3.obsType="⛸️ Ice"
         obs3.gradation="Ice Pellets"
         obs3.lat=50.50
         obs3.lon=2.75
         
         let obs4 = Observation()
-        obs4.obsType="Winter"
+        obs4.obsType="⛸️ Ice"
         obs4.gradation="Ice Pellets"
         obs4.lat=51.20
         obs4.lon=3.75
@@ -73,9 +73,9 @@ class ObservationRepo {
     // Verwijder alle data
     func deleteAllData() {
         let realm = try! Realm()
-        
-        realm.beginWrite() // Nodig voor delete
-        realm.deleteAll()
+        try! realm.write {
+            realm.deleteAll()
+        }
     }
     
 }

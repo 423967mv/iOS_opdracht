@@ -44,6 +44,12 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         
     }
     
+    
+    // Indien terugkeer naar deze view en er zijn nieuwe observaties toegevoegd
+    override func viewDidAppear(_ animated: Bool) {
+        viewDidLoad()
+    }
+    
     // Haal huidige locatie op
     func determineMyCurrentLocation() {
         locationManager = CLLocationManager()

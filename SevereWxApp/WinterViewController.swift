@@ -20,10 +20,10 @@ class WinterViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var sections = [
         Section(obsType: "❄️ Snowfall",
                 obsTypeGradations: ["0-5cm", "5-15cm", "20cm+", "Thundersnow"],
-                expanded: false),
+                expanded: true),
         Section(obsType: "⛸️ Ice",
                 obsTypeGradations: ["Refreezing snow", "Ice Pellets"],
-                expanded: false)
+                expanded: true)
     ]
     
     // Haal huidige locatie op voor doorgeven observatie
