@@ -7,10 +7,14 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, ExpandableHeaderViewDelegate{
+class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, ExpandableHeaderViewDelegate, CLLocationManagerDelegate {
 
     @IBOutlet weak var tableView: UITableView!
+    
+    var locationManager:CLLocationManager!
+    var userLocation:CLLocation!
     
     var sections = [
         Section(obsType: "Tornado",
@@ -24,6 +28,30 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
                 expanded: false)
     ]
     
+    // Haal huidige locatie op voor doorgeven observatie
+    func determineMyCurrentLocation() {
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestAlwaysAuthorization()
+        
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.startUpdatingLocation()
+        }
+    }
+    
+    // Hier komt de manipulatie van de coordinaatData
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        userLocation = locations[0] as CLLocation
+        print("user latitude = \(userLocation.coordinate.latitude)")
+        print("user longitude = \(userLocation.coordinate.longitude)")
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error)
+    {
+        print("Error \(error)")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("thunderstorms")
@@ -31,9 +59,7 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
     
     // aantal secties
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -90,6 +116,8 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // TODO: actie bij het aanklikken van een rij
+        determineMyCurrentLocation()
+        
         tableView.deselectRow(at: indexPath, animated: true)
     }
 

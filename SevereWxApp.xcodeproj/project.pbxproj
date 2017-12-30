@@ -19,6 +19,7 @@
 		4C43177F1FF666E3002002E4 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43177E1FF666E3002002E4 /* Section.swift */; };
 		4C4317811FF668D1002002E4 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */; };
 		4C6CAF801FF7A1D6007D71AC /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CAF7F1FF7A1D6007D71AC /* Observation.swift */; };
+		4C6CAF821FF7A5EA007D71AC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF811FF7A5EA007D71AC /* CoreLocation.framework */; };
 		78E95BEC60E04D39CDB2D891 /* Pods_SevereWxAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CF1502AD06FA90ED0F96CC /* Pods_SevereWxAppUITests.framework */; };
 		A21702F6B804D1F58F94A192 /* Pods_SevereWxAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76337CF3E279D720B78CC617 /* Pods_SevereWxAppTests.framework */; };
 		B2F1FFBCEEBECE64D17B6682 /* Pods_SevereWxApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64202DEBACDB26AA53691FE6 /* Pods_SevereWxApp.framework */; };
@@ -62,6 +63,7 @@
 		4C43177E1FF666E3002002E4 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 		4C6CAF7F1FF7A1D6007D71AC /* Observation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
+		4C6CAF811FF7A5EA007D71AC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		64202DEBACDB26AA53691FE6 /* Pods_SevereWxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevereWxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		671702FD581732C0DFE7A8A7 /* Pods-SevereWxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevereWxApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SevereWxApp/Pods-SevereWxApp.release.xcconfig"; sourceTree = "<group>"; };
 		76337CF3E279D720B78CC617 /* Pods_SevereWxAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevereWxAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6CAF821FF7A5EA007D71AC /* CoreLocation.framework in Frameworks */,
 				B2F1FFBCEEBECE64D17B6682 /* Pods_SevereWxApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +105,7 @@
 		17CC4915BF0D616CE05BF391 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C6CAF811FF7A5EA007D71AC /* CoreLocation.framework */,
 				64202DEBACDB26AA53691FE6 /* Pods_SevereWxApp.framework */,
 				76337CF3E279D720B78CC617 /* Pods_SevereWxAppTests.framework */,
 				E8CF1502AD06FA90ED0F96CC /* Pods_SevereWxAppUITests.framework */,
