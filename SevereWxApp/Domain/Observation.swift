@@ -7,35 +7,13 @@
 //
 
 import Foundation
+import RealmSwift
 
-class Observation {
+class Observation : Object {
     
-    var obsType: String
-    var gradation: String
-    var lat: Float
-    var lon: Float
-
-    init(obsType: String, gradation: String, lat: Float, lon: Float) {
-        self.obsType=obsType
-        self.gradation=gradation
-        self.lat=lat
-        self.lon=lon
-    }
-    
-    func getObsType() -> String {
-        return self.obsType
-    }
-    
-    func getGradation() -> String {
-        return self.gradation
-    }
-    
-    func getLat() -> Float {
-        return self.lat
-    }
-    
-    func getLon() -> Float {
-        return self.lon
-    }
+    @objc dynamic var obsType = ""
+    @objc dynamic var gradation = ""
+    @objc dynamic var lat = 0.0
+    @objc dynamic var lon = 0.0
     
 }

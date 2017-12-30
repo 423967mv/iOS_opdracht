@@ -20,6 +20,13 @@
 		4C4317811FF668D1002002E4 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */; };
 		4C6CAF801FF7A1D6007D71AC /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CAF7F1FF7A1D6007D71AC /* Observation.swift */; };
 		4C6CAF821FF7A5EA007D71AC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF811FF7A5EA007D71AC /* CoreLocation.framework */; };
+		4C6CAF851FF7C9DF007D71AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF831FF7C9DD007D71AC /* Realm.framework */; };
+		4C6CAF861FF7C9DF007D71AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */; };
+		4C6CAF871FF7CA0D007D71AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF831FF7C9DD007D71AC /* Realm.framework */; };
+		4C6CAF881FF7CA0E007D71AC /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF831FF7C9DD007D71AC /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C6CAF891FF7CA0E007D71AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */; };
+		4C6CAF8A1FF7CA0E007D71AC /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C6CAF8F1FF7CB41007D71AC /* ObservationRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CAF8E1FF7CB41007D71AC /* ObservationRepo.swift */; };
 		78E95BEC60E04D39CDB2D891 /* Pods_SevereWxAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CF1502AD06FA90ED0F96CC /* Pods_SevereWxAppUITests.framework */; };
 		A21702F6B804D1F58F94A192 /* Pods_SevereWxAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76337CF3E279D720B78CC617 /* Pods_SevereWxAppTests.framework */; };
 		B2F1FFBCEEBECE64D17B6682 /* Pods_SevereWxApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64202DEBACDB26AA53691FE6 /* Pods_SevereWxApp.framework */; };
@@ -41,6 +48,21 @@
 			remoteInfo = SevereWxApp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C6CAF8B1FF7CA0E007D71AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C6CAF8A1FF7CA0E007D71AC /* RealmSwift.framework in Embed Frameworks */,
+				4C6CAF881FF7CA0E007D71AC /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0217FAC8121830F7DC18265A /* Pods-SevereWxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevereWxApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevereWxApp/Pods-SevereWxApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +86,9 @@
 		4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 		4C6CAF7F1FF7A1D6007D71AC /* Observation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
 		4C6CAF811FF7A5EA007D71AC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4C6CAF831FF7C9DD007D71AC /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		4C6CAF8E1FF7CB41007D71AC /* ObservationRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationRepo.swift; sourceTree = "<group>"; };
 		64202DEBACDB26AA53691FE6 /* Pods_SevereWxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevereWxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		671702FD581732C0DFE7A8A7 /* Pods-SevereWxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevereWxApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SevereWxApp/Pods-SevereWxApp.release.xcconfig"; sourceTree = "<group>"; };
 		76337CF3E279D720B78CC617 /* Pods_SevereWxAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevereWxAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +103,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6CAF851FF7C9DF007D71AC /* Realm.framework in Frameworks */,
 				4C6CAF821FF7A5EA007D71AC /* CoreLocation.framework in Frameworks */,
+				4C6CAF891FF7CA0E007D71AC /* RealmSwift.framework in Frameworks */,
+				4C6CAF861FF7C9DF007D71AC /* RealmSwift.framework in Frameworks */,
 				B2F1FFBCEEBECE64D17B6682 /* Pods_SevereWxApp.framework in Frameworks */,
+				4C6CAF871FF7CA0D007D71AC /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +167,7 @@
 		4C0F19461FF2BCF70020DC8F /* SevereWxApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C6CAF8D1FF7CB21007D71AC /* Persistency */,
 				4C6CAF7E1FF7A1AE007D71AC /* Domain */,
 				4C43177D1FF666BA002002E4 /* ExpandableHeaderView */,
 				4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */,
@@ -148,6 +178,8 @@
 				4C0F19501FF2BCF70020DC8F /* Assets.xcassets */,
 				4C0F19521FF2BCF70020DC8F /* LaunchScreen.storyboard */,
 				4C0F19551FF2BCF70020DC8F /* Info.plist */,
+				4C6CAF831FF7C9DD007D71AC /* Realm.framework */,
+				4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */,
 			);
 			path = SevereWxApp;
 			sourceTree = "<group>";
@@ -187,6 +219,14 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		4C6CAF8D1FF7CB21007D71AC /* Persistency */ = {
+			isa = PBXGroup;
+			children = (
+				4C6CAF8E1FF7CB41007D71AC /* ObservationRepo.swift */,
+			);
+			path = Persistency;
+			sourceTree = "<group>";
+		};
 		6DA31F4BC83F13CB1CEF87CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +253,8 @@
 				4C0F19421FF2BCF70020DC8F /* Resources */,
 				C10D643753F633DDF8527E62 /* [CP] Embed Pods Frameworks */,
 				CD616965657E54686E361892 /* [CP] Copy Pods Resources */,
+				4C6CAF8B1FF7CA0E007D71AC /* Embed Frameworks */,
+				4C6CAF8C1FF7CA3C007D71AC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -387,6 +429,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevereWxAppTests/Pods-SevereWxAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4C6CAF8C1FF7CA3C007D71AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
 		5319E5C82A98DBC6B5038AA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -498,6 +553,7 @@
 				4C0F19481FF2BCF70020DC8F /* AppDelegate.swift in Sources */,
 				4C6CAF801FF7A1D6007D71AC /* Observation.swift in Sources */,
 				4C0F197A1FF2C2950020DC8F /* WinterViewController.swift in Sources */,
+				4C6CAF8F1FF7CB41007D71AC /* ObservationRepo.swift in Sources */,
 				4C0F19781FF2BFCD0020DC8F /* ThunderstormsViewController.swift in Sources */,
 				4C16984E1FF2C9900051BEA7 /* MapViewController.swift in Sources */,
 			);
@@ -667,6 +723,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SevereWxApp",
+				);
 				INFOPLIST_FILE = SevereWxApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chase2be.SevereWxApp;
@@ -682,6 +742,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SevereWxApp",
+				);
 				INFOPLIST_FILE = SevereWxApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chase2be.SevereWxApp;
