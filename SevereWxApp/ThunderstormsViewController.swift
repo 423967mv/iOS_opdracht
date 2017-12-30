@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import MapKit
 
 class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, ExpandableHeaderViewDelegate, CLLocationManagerDelegate {
 
@@ -16,13 +17,14 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
     var locationManager:CLLocationManager!
     var userLocation:CLLocation!
     var currentIndexPath: IndexPath!
+
     
     var sections = [
         Section(obsType: "🌪️ Tornado",
-                obsTypeGradations: ["F0", "F1", "F2", "F3", "F4", "F5"],
+                obsTypeGradations: ["F0 damage", "F1 damage", "F2 damage", "F3 damage", "F4 damage", "F5 damage"],
                 expanded: false),
         Section(obsType: "🎾 Large Hail",
-                obsTypeGradations: ["2-5cm", "5cm+"],
+                obsTypeGradations: ["2-5cm", "5-10cm", "10cm+"],
                 expanded: true),
         Section(obsType: "💨 Wind Gusts",
                 obsTypeGradations: ["Large branches downed", "Trees/power lines downed", "Buildings damaged"],
@@ -45,18 +47,37 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         userLocation = locations[0] as CLLocation
         
-        // Nieuwe observatie aanmaken
-        let newObservation = Observation()
+        // Geocoding voor coords naar plaatsnaam
+        let geoCoder = CLGeocoder()
+        let location = CLLocation(latitude: userLocation.coordinate.latitude, longitude: userLocation.coordinate.longitude)
+        geoCoder.reverseGeocodeLocation(location, completionHandler: { (placemarks, error) -> Void in
+            
+            var placeMark: CLPlacemark!
+            placeMark = placemarks?[0]
+            
+            // Plaatsnaam uit dictionnary halen
+            if let city = placeMark.addressDictionary!["City"] as? String {
+                print("Observation for: \(city)")
+                
+                // Nieuwe observatie aanmaken
+                let newObservation = Observation()
+                
+                // Attributen invullen
+                newObservation.obsType = self.sections[self.currentIndexPath.section].obsType
+                newObservation.gradation = self.sections[self.currentIndexPath.section].obsTypeGradations[self.currentIndexPath.row]
+                newObservation.lat = self.userLocation.coordinate.latitude
+                newObservation.lon = self.userLocation.coordinate.longitude
+                newObservation.siteName = city
+                newObservation.time = NSDate()
+                
+                // Observatie opslaan
+                let repo = ObservationRepo()
+                repo.addObservation(newObservation: newObservation)
+                
+            }
+         
+        })
         
-        // Attributen invullen
-        newObservation.obsType = sections[currentIndexPath.section].obsType
-        newObservation.gradation = sections[currentIndexPath.section].obsTypeGradations[currentIndexPath.row]
-        newObservation.lat = userLocation.coordinate.latitude
-        newObservation.lon = userLocation.coordinate.longitude
-        
-        // Observatie opslaan
-        let repo = ObservationRepo()
-        repo.addObservation(newObservation: newObservation)
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error)

@@ -15,5 +15,7 @@ class Observation : Object {
     @objc dynamic var gradation = ""
     @objc dynamic var lat = 0.0
     @objc dynamic var lon = 0.0
+    @objc dynamic var siteName = ""
+    @objc dynamic var time = NSDate()
     
 }

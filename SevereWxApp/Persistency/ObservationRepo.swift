@@ -17,28 +17,36 @@ class ObservationRepo {
         let realm = try! Realm()
         
         let obs1 = Observation()
-        obs1.obsType="❄️ Snowfall"
-        obs1.gradation="Heavy Snow"
-        obs1.lat=51.12
-        obs1.lon=3.00
+        obs1.obsType = "❄️ Snowfall"
+        obs1.gradation = "Heavy Snow"
+        obs1.lat = 51.12
+        obs1.lon = 3.00
+        obs1.siteName = "Lille"
+        obs1.time = NSDate()
         
         let obs2 = Observation()
-        obs2.obsType="⛸️ Ice"
-        obs2.gradation="Freezing Rain"
-        obs2.lat=51.50
-        obs2.lon=3.75
+        obs2.obsType = "⛸️ Ice"
+        obs2.gradation = "Freezing Rain"
+        obs2.lat = 51.50
+        obs2.lon = 3.75
+        obs2.siteName = "test"
+        obs2.time = NSDate()
         
         let obs3 = Observation()
-        obs3.obsType="⛸️ Ice"
-        obs3.gradation="Ice Pellets"
-        obs3.lat=50.50
-        obs3.lon=2.75
+        obs3.obsType = "⛸️ Ice"
+        obs3.gradation = "Ice Pellets"
+        obs3.lat = 50.50
+        obs3.lon = 2.75
+        obs3.siteName = "test"
+        obs3.time = NSDate()
         
         let obs4 = Observation()
-        obs4.obsType="⛸️ Ice"
-        obs4.gradation="Ice Pellets"
-        obs4.lat=51.20
-        obs4.lon=3.75
+        obs4.obsType = "⛸️ Ice"
+        obs4.gradation = "Ice Pellets"
+        obs4.lat = 51.20
+        obs4.lon = 3.75
+        obs4.siteName = "test"
+        obs4.time = NSDate()
         
         
         try! realm.write {
