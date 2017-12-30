@@ -18,10 +18,10 @@ class WinterViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var currentIndexPath: IndexPath!
     
     var sections = [
-        Section(obsType: "Snowfall",
+        Section(obsType: "❄️ Snowfall",
                 obsTypeGradations: ["0-5cm", "5-15cm", "20cm+", "Thundersnow"],
                 expanded: false),
-        Section(obsType: "Ice",
+        Section(obsType: "⛸️ Ice",
                 obsTypeGradations: ["Refreezing snow", "Ice Pellets"],
                 expanded: false)
     ]

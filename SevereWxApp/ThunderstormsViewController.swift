@@ -18,13 +18,13 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
     var currentIndexPath: IndexPath!
     
     var sections = [
-        Section(obsType: "Tornado",
+        Section(obsType: "🌪️ Tornado",
                 obsTypeGradations: ["F0", "F1", "F2", "F3", "F4", "F5"],
                 expanded: false),
-        Section(obsType: "Large Hail",
+        Section(obsType: "🎾 Large Hail",
                 obsTypeGradations: ["2-5cm", "5cm+"],
                 expanded: false),
-        Section(obsType: "Wind Gusts",
+        Section(obsType: "💨 Wind Gusts",
                 obsTypeGradations: ["Large branches downed", "Trees/power lines downed", "Buildings damaged"],
                 expanded: false)
     ]
