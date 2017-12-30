@@ -148,8 +148,14 @@ class WinterViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Actie bij het aanklikken van een rij
         // Set currentIndexPath
         currentIndexPath = indexPath
+        
         // Bepaal mijn locatie maak observatie aan en sla deze op
         determineMyCurrentLocation()
+        
+        // Toon melding
+        let alert = UIAlertController(title: "Info", message: "Observation added successfully!", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
         
         tableView.deselectRow(at: indexPath, animated: true)
     }
