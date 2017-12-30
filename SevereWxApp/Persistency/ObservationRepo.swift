@@ -67,10 +67,6 @@ class ObservationRepo {
         
         let allObservations = realm.objects(Observation.self)
         
-        for observation in allObservations {
-            print("\(observation.obsType)")
-        }
-        
         return allObservations
     }
     

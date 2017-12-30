@@ -171,6 +171,7 @@
 				4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */,
 				4C0F19791FF2C2950020DC8F /* WinterViewController.swift */,
 				4C16984D1FF2C9900051BEA7 /* MapViewController.swift */,
+				4C6CAF901FF7D723007D71AC /* ObsOverviewViewController.swift */,
 				4C0F19471FF2BCF70020DC8F /* AppDelegate.swift */,
 				4C0F194D1FF2BCF70020DC8F /* Main.storyboard */,
 				4C0F19501FF2BCF70020DC8F /* Assets.xcassets */,
@@ -178,7 +179,6 @@
 				4C0F19551FF2BCF70020DC8F /* Info.plist */,
 				4C6CAF831FF7C9DD007D71AC /* Realm.framework */,
 				4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */,
-				4C6CAF901FF7D723007D71AC /* ObsOverviewViewController.swift */,
 			);
 			path = SevereWxApp;
 			sourceTree = "<group>";
