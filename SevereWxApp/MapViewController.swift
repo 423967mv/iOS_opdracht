@@ -34,8 +34,14 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         for observation in observations {
             let marker = GMSMarker()
             marker.position = CLLocationCoordinate2DMake(observation.lat, observation.lon)
-            marker.title = observation.obsType
-            marker.snippet = observation.gradation
+            marker.title = observation.siteName + ": " + observation.obsType
+            
+            // van Date naar string
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+            let stringDate = dateFormatter.string(from: observation.time as Date)
+            
+            marker.snippet = observation.gradation + " " + stringDate
             marker.map = mapView
         }
         

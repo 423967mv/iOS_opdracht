@@ -21,7 +21,7 @@ class ObservationRepo {
         obs1.gradation = "Heavy Snow"
         obs1.lat = 51.12
         obs1.lon = 3.00
-        obs1.siteName = "Lille"
+        obs1.siteName = "Koekelare"
         obs1.time = NSDate()
         
         let obs2 = Observation()
@@ -29,7 +29,7 @@ class ObservationRepo {
         obs2.gradation = "Freezing Rain"
         obs2.lat = 51.50
         obs2.lon = 3.75
-        obs2.siteName = "test"
+        obs2.siteName = "'s-Heer Arendskerke"
         obs2.time = NSDate()
         
         let obs3 = Observation()
@@ -37,7 +37,7 @@ class ObservationRepo {
         obs3.gradation = "Ice Pellets"
         obs3.lat = 50.50
         obs3.lon = 2.75
-        obs3.siteName = "test"
+        obs3.siteName = "Vermelles"
         obs3.time = NSDate()
         
         let obs4 = Observation()
@@ -45,7 +45,7 @@ class ObservationRepo {
         obs4.gradation = "Ice Pellets"
         obs4.lat = 51.20
         obs4.lon = 3.75
-        obs4.siteName = "test"
+        obs4.siteName = "Assenede"
         obs4.time = NSDate()
         
         

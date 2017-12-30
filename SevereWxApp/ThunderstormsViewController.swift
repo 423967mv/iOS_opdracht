@@ -27,7 +27,7 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
                 obsTypeGradations: ["2-5cm", "5-10cm", "10cm+"],
                 expanded: true),
         Section(obsType: "💨 Wind Gusts",
-                obsTypeGradations: ["Large branches downed", "Trees/power lines downed", "Buildings damaged"],
+                obsTypeGradations: ["Large branches downed", "Trees / power lines downed", "Buildings damaged"],
                 expanded: true)
     ]
     

@@ -45,21 +45,40 @@ class WinterViewController: UIViewController, UITableViewDelegate, UITableViewDa
     // Hier komt de manipulatie van de coordinaatData
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         userLocation = locations[0] as CLLocation
-     
-        // Nieuwe observatie aanmaken
-        let newObservation = Observation()
         
-        // Attributen invullen
-        newObservation.obsType = sections[currentIndexPath.section].obsType
-        newObservation.gradation = sections[currentIndexPath.section].obsTypeGradations[currentIndexPath.row]
-        newObservation.lat = userLocation.coordinate.latitude
-        newObservation.lon = userLocation.coordinate.longitude
-        
-        // Observatie opslaan
-        let repo = ObservationRepo()
-        repo.addObservation(newObservation: newObservation)
+        // Geocoding voor coords naar plaatsnaam
+        let geoCoder = CLGeocoder()
+        let location = CLLocation(latitude: userLocation.coordinate.latitude, longitude: userLocation.coordinate.longitude)
+        geoCoder.reverseGeocodeLocation(location, completionHandler: { (placemarks, error) -> Void in
+            
+            var placeMark: CLPlacemark!
+            placeMark = placemarks?[0]
+            
+            // Plaatsnaam uit dictionnary halen
+            if let city = placeMark.addressDictionary!["City"] as? String {
+                print("Observation for: \(city)")
+                
+                // Nieuwe observatie aanmaken
+                let newObservation = Observation()
+                
+                // Attributen invullen
+                newObservation.obsType = self.sections[self.currentIndexPath.section].obsType
+                newObservation.gradation = self.sections[self.currentIndexPath.section].obsTypeGradations[self.currentIndexPath.row]
+                newObservation.lat = self.userLocation.coordinate.latitude
+                newObservation.lon = self.userLocation.coordinate.longitude
+                newObservation.siteName = city
+                newObservation.time = NSDate()
+                
+                // Observatie opslaan
+                let repo = ObservationRepo()
+                repo.addObservation(newObservation: newObservation)
+                
+            }
+            
+        })
         
     }
+    
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error)
     {

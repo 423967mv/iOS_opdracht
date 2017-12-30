@@ -29,7 +29,7 @@ class ObsOverviewViewController: UIViewController, UITableViewDelegate, UITableV
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = observations[indexPath.row].obsType + ": " + observations[indexPath.row].gradation
+        cell.textLabel?.text =  observations[indexPath.row].siteName + ": " + observations[indexPath.row].obsType + ": " + observations[indexPath.row].gradation
         
         return cell
     }
