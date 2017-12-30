@@ -23,6 +23,11 @@ class ObsOverviewViewController: UIViewController, UITableViewDelegate, UITableV
     
     }
     
+    // Indien terugkeer naar deze view en er zijn nieuwe observaties toegevoegd
+    override func viewDidAppear(_ animated: Bool) {
+        viewDidLoad()
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return observations.count
     }
