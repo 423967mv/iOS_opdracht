@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Categories-->
+        <!--Winter Categories-->
         <scene sceneID="XPD-L6-ZS0">
             <objects>
                 <viewController id="jhz-IC-i2J" customClass="WinterViewController" customModule="SevereWxApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -63,7 +63,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fzo-Xd-GJa"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Categories" id="9XP-SK-XuY"/>
+                    <navigationItem key="navigationItem" title="Winter Categories" id="9XP-SK-XuY"/>
                     <connections>
                         <outlet property="tableView" destination="y8f-Tf-4Sr" id="Z4S-Wl-OLK"/>
                     </connections>
@@ -72,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="2162.4000000000001" y="631.93403298350825"/>
         </scene>
-        <!--Categories-->
+        <!--Thunderstorm Categories-->
         <scene sceneID="g7W-EQ-aS7">
             <objects>
                 <viewController id="yq0-tW-grG" customClass="ThunderstormsViewController" customModule="SevereWxApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -125,7 +125,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="M0p-05-Wzg"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Categories" id="x4B-Pm-F3K"/>
+                    <navigationItem key="navigationItem" title="Thunderstorm Categories" id="x4B-Pm-F3K"/>
                     <connections>
                         <outlet property="tableView" destination="Yc1-z5-C6d" id="ifs-hg-Kl8"/>
                     </connections>
@@ -141,16 +141,38 @@
                     <view key="view" contentMode="scaleToFill" id="1yg-7C-pKR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nXI-p4-XMf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="dg0-Ad-ZB5">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dg0-Ad-ZB5" id="Wzp-go-z43">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nXI-p4-XMf" firstAttribute="leading" secondItem="1yg-7C-pKR" secondAttribute="leading" id="C7o-ZG-Haa"/>
+                            <constraint firstItem="nXI-p4-XMf" firstAttribute="top" secondItem="1yg-7C-pKR" secondAttribute="top" id="Tuh-Ay-EnE"/>
+                            <constraint firstItem="nXI-p4-XMf" firstAttribute="bottom" secondItem="1Eo-yy-zS1" secondAttribute="bottom" id="mVY-Uh-GdE"/>
+                            <constraint firstAttribute="trailing" secondItem="nXI-p4-XMf" secondAttribute="trailing" id="sym-ec-z5H"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1Eo-yy-zS1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="leu-dT-Hr8"/>
+                    <tabBarItem key="tabBarItem" title="Observations" image="first" selectedImage="first" id="leu-dT-Hr8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PHE-Dv-qee" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2161" y="-970"/>
+            <point key="canvasLocation" x="2160.8000000000002" y="-934.18290854572717"/>
         </scene>
-        <!--Observationmap-->
+        <!--Map-->
         <scene sceneID="Tjj-85-bSH">
             <objects>
                 <viewController id="nC4-Gz-twu" customClass="MapViewController" customModule="SevereWxApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -160,7 +182,7 @@
                         <color key="backgroundColor" red="1" green="0.61624115946998115" blue="0.28990924639706994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GPY-M9-dMv"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Observationmap" image="map" selectedImage="map" id="fVr-ah-7kR"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" selectedImage="map" id="fVr-ah-7kR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z4g-I6-Hs9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -226,6 +248,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="first" width="30" height="30"/>
         <image name="map" width="25" height="25"/>
         <image name="thunderstorm" width="25" height="25"/>
         <image name="winter" width="25" height="25"/>
