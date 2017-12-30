@@ -18,6 +18,7 @@
 		4C16984E1FF2C9900051BEA7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C16984D1FF2C9900051BEA7 /* MapViewController.swift */; };
 		4C43177F1FF666E3002002E4 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43177E1FF666E3002002E4 /* Section.swift */; };
 		4C4317811FF668D1002002E4 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */; };
+		4C6CAF801FF7A1D6007D71AC /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CAF7F1FF7A1D6007D71AC /* Observation.swift */; };
 		78E95BEC60E04D39CDB2D891 /* Pods_SevereWxAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CF1502AD06FA90ED0F96CC /* Pods_SevereWxAppUITests.framework */; };
 		A21702F6B804D1F58F94A192 /* Pods_SevereWxAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76337CF3E279D720B78CC617 /* Pods_SevereWxAppTests.framework */; };
 		B2F1FFBCEEBECE64D17B6682 /* Pods_SevereWxApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64202DEBACDB26AA53691FE6 /* Pods_SevereWxApp.framework */; };
@@ -60,6 +61,7 @@
 		4C16984D1FF2C9900051BEA7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4C43177E1FF666E3002002E4 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		4C6CAF7F1FF7A1D6007D71AC /* Observation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
 		64202DEBACDB26AA53691FE6 /* Pods_SevereWxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevereWxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		671702FD581732C0DFE7A8A7 /* Pods-SevereWxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevereWxApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SevereWxApp/Pods-SevereWxApp.release.xcconfig"; sourceTree = "<group>"; };
 		76337CF3E279D720B78CC617 /* Pods_SevereWxAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevereWxAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 		4C0F19461FF2BCF70020DC8F /* SevereWxApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C6CAF7E1FF7A1AE007D71AC /* Domain */,
 				4C43177D1FF666BA002002E4 /* ExpandableHeaderView */,
 				4C0F19771FF2BFCD0020DC8F /* ThunderstormsViewController.swift */,
 				4C0F19791FF2C2950020DC8F /* WinterViewController.swift */,
@@ -170,6 +173,14 @@
 				4C4317801FF668D1002002E4 /* ExpandableHeaderView.swift */,
 			);
 			path = ExpandableHeaderView;
+			sourceTree = "<group>";
+		};
+		4C6CAF7E1FF7A1AE007D71AC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4C6CAF7F1FF7A1D6007D71AC /* Observation.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		6DA31F4BC83F13CB1CEF87CE /* Pods */ = {
@@ -481,6 +492,7 @@
 				4C43177F1FF666E3002002E4 /* Section.swift in Sources */,
 				4C4317811FF668D1002002E4 /* ExpandableHeaderView.swift in Sources */,
 				4C0F19481FF2BCF70020DC8F /* AppDelegate.swift in Sources */,
+				4C6CAF801FF7A1D6007D71AC /* Observation.swift in Sources */,
 				4C0F197A1FF2C2950020DC8F /* WinterViewController.swift in Sources */,
 				4C0F19781FF2BFCD0020DC8F /* ThunderstormsViewController.swift in Sources */,
 				4C16984E1FF2C9900051BEA7 /* MapViewController.swift in Sources */,
