@@ -66,6 +66,10 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Databank legen
+        let repo = ObservationRepo()
+        repo.deleteAllData()
+        
     }
     
     override func didReceiveMemoryWarning() {

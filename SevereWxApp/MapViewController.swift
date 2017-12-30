@@ -9,39 +9,68 @@
 import UIKit
 import GoogleMaps
 
-class MapViewController: UIViewController {
-
+class MapViewController: UIViewController, CLLocationManagerDelegate {
+    
+    var locationManager:CLLocationManager!
+    var userLocation:CLLocation!
+    var mapView:GMSMapView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let camera = GMSCameraPosition.camera(withLatitude: 51.00, longitude: 3.00, zoom: 6)
-        let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
+        // Observaties ophalen
+        let repo = ObservationRepo()
+        let observations = repo.getAllObservations()
+        mapView = GMSMapView(frame: self.view.bounds)
+        
+        // Zoomlevel en mijn locatie (blauwe bol)
+        mapView.setMinZoom(5, maxZoom: 20)
         mapView.isMyLocationEnabled = true
+        
         self.view = mapView
         
-        let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2DMake(51.00, 3.00)
-        marker.title = "MyPosition"
-        marker.snippet = "MyPosition"
-        marker.map = mapView
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Plaats marker op GoogleMap voor elke observatie
+        for observation in observations {
+            let marker = GMSMarker()
+            marker.position = CLLocationCoordinate2DMake(observation.lat, observation.lon)
+            marker.title = observation.obsType
+            marker.snippet = observation.gradation
+            marker.map = mapView
+        }
+        
+        // Haal mijn locatie op en centreer hierop
+        determineMyCurrentLocation()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Haal huidige locatie op
+    func determineMyCurrentLocation() {
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestAlwaysAuthorization()
+        
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.startUpdatingLocation()
+        }
     }
-    */
+    
+    // Hier komt de manipulatie van de coordinaatData
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        userLocation = locations[0] as CLLocation
+        
+        // Centreer mapView op mijn locatie
+        mapView.animate(toLocation: userLocation.coordinate)
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error)
+    {
+        print("Error \(error)")
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 
 }

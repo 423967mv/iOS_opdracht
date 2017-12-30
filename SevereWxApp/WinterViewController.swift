@@ -15,6 +15,7 @@ class WinterViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     var locationManager:CLLocationManager!
     var userLocation:CLLocation!
+    var currentIndexPath: IndexPath!
     
     var sections = [
         Section(obsType: "Snowfall",
@@ -39,14 +40,25 @@ class WinterViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("winter")
     }
     
     // Hier komt de manipulatie van de coordinaatData
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         userLocation = locations[0] as CLLocation
-        print("user latitude = \(userLocation.coordinate.latitude)")
-        print("user longitude = \(userLocation.coordinate.longitude)")
+     
+        // Nieuwe observatie aanmaken
+        let newObservation = Observation()
+        
+        // Attributen invullen
+        newObservation.obsType = sections[currentIndexPath.section].obsType
+        newObservation.gradation = sections[currentIndexPath.section].obsTypeGradations[currentIndexPath.row]
+        newObservation.lat = userLocation.coordinate.latitude
+        newObservation.lon = userLocation.coordinate.longitude
+        
+        // Observatie opslaan
+        let repo = ObservationRepo()
+        repo.addObservation(newObservation: newObservation)
+        
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error)
@@ -114,9 +126,12 @@ class WinterViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // TODO: actie bij het aanklikken van een rij
+        // Actie bij het aanklikken van een rij
+        // Set currentIndexPath
+        currentIndexPath = indexPath
+        // Bepaal mijn locatie maak observatie aan en sla deze op
         determineMyCurrentLocation()
-
+        
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }

@@ -21,8 +21,6 @@
 		4C6CAF801FF7A1D6007D71AC /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CAF7F1FF7A1D6007D71AC /* Observation.swift */; };
 		4C6CAF821FF7A5EA007D71AC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF811FF7A5EA007D71AC /* CoreLocation.framework */; };
 		4C6CAF851FF7C9DF007D71AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF831FF7C9DD007D71AC /* Realm.framework */; };
-		4C6CAF861FF7C9DF007D71AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */; };
-		4C6CAF871FF7CA0D007D71AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF831FF7C9DD007D71AC /* Realm.framework */; };
 		4C6CAF881FF7CA0E007D71AC /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF831FF7C9DD007D71AC /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4C6CAF891FF7CA0E007D71AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */; };
 		4C6CAF8A1FF7CA0E007D71AC /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6CAF841FF7C9DF007D71AC /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -108,9 +106,7 @@
 				4C6CAF851FF7C9DF007D71AC /* Realm.framework in Frameworks */,
 				4C6CAF821FF7A5EA007D71AC /* CoreLocation.framework in Frameworks */,
 				4C6CAF891FF7CA0E007D71AC /* RealmSwift.framework in Frameworks */,
-				4C6CAF861FF7C9DF007D71AC /* RealmSwift.framework in Frameworks */,
 				B2F1FFBCEEBECE64D17B6682 /* Pods_SevereWxApp.framework in Frameworks */,
-				4C6CAF871FF7CA0D007D71AC /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,4 +34,12 @@ class ObservationRepo {
         return allObservations
     }
     
+    // Verwijder alle data
+    func deleteAllData() {
+        let realm = try! Realm()
+        
+        realm.beginWrite() // Nodig voor delete
+        realm.deleteAll()
+    }
+    
 }
