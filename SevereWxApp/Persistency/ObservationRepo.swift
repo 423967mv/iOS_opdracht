@@ -11,6 +11,7 @@ import RealmSwift
 
 class ObservationRepo {
     
+    // Observatie toevoegen
     func addObservation(newObservation: Observation) {
         let realm = try! Realm()
         
@@ -19,4 +20,18 @@ class ObservationRepo {
             print("\(newObservation.obsType) is toegevoegd aan Realm")
         }
     }
+    
+    // Alle observaties ophalen
+    func getAllObservations() -> Results<Observation> {
+        let realm = try! Realm()
+        
+        let allObservations = realm.objects(Observation.self)
+        
+        for observation in allObservations {
+            print("\(observation.obsType)")
+        }
+        
+        return allObservations
+    }
+    
 }
