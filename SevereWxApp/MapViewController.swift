@@ -35,6 +35,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             let marker = GMSMarker()
             marker.position = CLLocationCoordinate2DMake(observation.lat, observation.lon)
             marker.title = observation.siteName + ": " + observation.obsType
+            marker.icon = determineMarker(obsType: observation.obsType)
             
             // van Date naar string
             let dateFormatter = DateFormatter()
@@ -65,6 +66,25 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         
         if CLLocationManager.locationServicesEnabled() {
             locationManager.startUpdatingLocation()
+        }
+    }
+    
+    // Bepaal marker
+    func determineMarker(obsType: String) -> UIImage {
+        switch obsType {
+        case "🌪️ Tornado":
+            return UIImage(named: "tornado.png")!
+        case "🎾 Large Hail":
+            return UIImage(named: "hail.png")!
+        case "💨 Wind Gusts":
+            return UIImage(named: "wind.png")!
+        case "❄️ Snowfall":
+            return UIImage(named: "snow.png")!
+        case "⛸️ Ice":
+            return UIImage(named: "ice.png")!
+        
+        default:
+            return UIImage(named: "wind.png")!
         }
     }
     

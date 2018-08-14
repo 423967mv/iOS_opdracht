@@ -272,8 +272,6 @@
 				4C0F19561FF2BCF70020DC8F /* Sources */,
 				4C0F19571FF2BCF70020DC8F /* Frameworks */,
 				4C0F19581FF2BCF70020DC8F /* Resources */,
-				B144493CE0826021D2FEBCF6 /* [CP] Embed Pods Frameworks */,
-				3E7847F2BAD6B3494614A309 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,8 +291,6 @@
 				4C0F19611FF2BCF70020DC8F /* Sources */,
 				4C0F19621FF2BCF70020DC8F /* Frameworks */,
 				4C0F19631FF2BCF70020DC8F /* Resources */,
-				73349E9A0EF28EAB6030032C /* [CP] Embed Pods Frameworks */,
-				00FC8495A1BC37E66835EAAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -380,21 +376,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00FC8495A1BC37E66835EAAD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevereWxAppUITests/Pods-SevereWxAppUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		37F82F3FAFFDFD1374989385 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,21 +392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E7847F2BAD6B3494614A309 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevereWxAppTests/Pods-SevereWxAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4C6CAF8C1FF7CA3C007D71AC /* ShellScript */ = {
@@ -459,36 +425,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		73349E9A0EF28EAB6030032C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevereWxAppUITests/Pods-SevereWxAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B144493CE0826021D2FEBCF6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevereWxAppTests/Pods-SevereWxAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C10D643753F633DDF8527E62 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,7 +454,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -731,6 +667,7 @@
 					"$(PROJECT_DIR)/SevereWxApp",
 				);
 				INFOPLIST_FILE = SevereWxApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chase2be.SevereWxApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -750,6 +687,7 @@
 					"$(PROJECT_DIR)/SevereWxApp",
 				);
 				INFOPLIST_FILE = SevereWxApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chase2be.SevereWxApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -766,6 +704,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SevereWxAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chase2be.SevereWxAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -783,6 +722,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SevereWxAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chase2be.SevereWxAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -799,6 +739,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SevereWxAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chase2be.SevereWxAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -815,6 +756,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SevereWxAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chase2be.SevereWxAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

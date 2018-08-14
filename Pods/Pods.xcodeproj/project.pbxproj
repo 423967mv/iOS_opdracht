@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1770072BFB74732DDC806E8FBED2F4B2 /* Pods-SevereWxAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B81AF1882C87D14B4BF14DBF45878F7 /* Pods-SevereWxAppUITests-dummy.m */; };
+		00F47AD87B42FA81759487C4B4D197EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */; };
 		1BB3C8FB49A35A6CA970402480082FCC /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5453F7D40478218680A7A4C1FEDE92 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E03283A5602087FDDAA5BAB68D7E6ED /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA8CFC19BD40A9A68EAC2E5913B4ABB /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E03283A5602087FDDAA5BAB68D7E6ED /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 600BF5A80F712F35901DA783CD6D34CC /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2990BD04E6AC22599DD310234220713A /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FAE6F0A257BB0F03992EA84DA84E10 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		333D0CF8025A705EC0E153E756BF6D1E /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B99AD526B4DBAB1A24E1D20A2E93419A /* Toast-dummy.m */; };
-		3DBE3C0C0AC117A4C397C61DF1D9E434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		41507FBC1E9030091F41ABA000F31163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		4E9E19D569F36B0EBBC4B8CAC9AACE32 /* Pods-SevereWxAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2275CDEE9169B845DCA23EEBF94FF5 /* Pods-SevereWxAppTests-dummy.m */; };
-		A269E0A3CF94DF735D376C56E1DCF996 /* Pods-SevereWxApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D93B277FF8DB28F25BA9945A1A6DD4 /* Pods-SevereWxApp-dummy.m */; };
-		AF42765534F6BE51B28BBC9681A45DEE /* Pods-SevereWxApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE4FCC3C946789795D0D39B17596A98 /* Pods-SevereWxApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7A93370C625978E1D3E8610B62F707E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		B9CB0DF1172CD9C76C799576D28F5D47 /* Pods-SevereWxAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F005EF2FD1C80C7AB93FFA302ED2DD0 /* Pods-SevereWxAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBFDF741CFB969C9F28D47B0D4F35BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		333D0CF8025A705EC0E153E756BF6D1E /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE46D96A8EBE33CDE2C49304ED190D8 /* Toast-dummy.m */; };
+		381A1F61186C6D56F8A301A2CF10D576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		4D51B71DC3B29E30B3614A0A63AD919E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		53B0497B0BADA9D08480D9944EA031AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		8C17EC05C9CA2879EF64676A47371E2A /* Pods-SevereWxAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0046A9B183DF1B7FF82685D7CB535293 /* Pods-SevereWxAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E4612D6E10B2048A6DE7015D9EBF7FD /* Pods-SevereWxAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F742A1D69EBC4836E2BCC6329667BB /* Pods-SevereWxAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9839F84221289360442DA25F9406C521 /* Pods-SevereWxAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C69911BF4DF7A53A87B48611F35092C4 /* Pods-SevereWxAppUITests-dummy.m */; };
+		990AA5176A6102E06C185DE5C4102CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		A269E0A3CF94DF735D376C56E1DCF996 /* Pods-SevereWxApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD925BBB0740ACD429FAFAC8C85C8E60 /* Pods-SevereWxApp-dummy.m */; };
+		AF42765534F6BE51B28BBC9681A45DEE /* Pods-SevereWxApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23396C99BA2A31E86D81823B166BF229 /* Pods-SevereWxApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C66621342CA19C109A6E8D301B297203 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2BD98F5447EF02F90F33CDCEC3D64D /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE7D2F8F6B41560CDF17A75830E27804 /* Pods-SevereWxAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5589199EB1D72A7CCBB1F6D169E3833 /* Pods-SevereWxAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3AFCEB8CD6F514A740B4250E1BFA65D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		EF735DDCC46DDBDEA87D24961F7F2E90 /* Pods-SevereWxAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D8915DBCDDDB2C1C0AE2CA092757D9 /* Pods-SevereWxAppTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,59 +33,73 @@
 			remoteGlobalIDString = 2D643E384923B0AF8AAD31B1EE66A483;
 			remoteInfo = Toast;
 		};
+		D14C4C93CBA6581534AB36F798B5EFAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB713625D7FA3B68A1DBDEEBFAC7CD50;
+			remoteInfo = "Pods-SevereWxApp";
+		};
+		F8CA023CF904FA05E352A26D5441EF37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB713625D7FA3B68A1DBDEEBFAC7CD50;
+			remoteInfo = "Pods-SevereWxApp";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0046A9B183DF1B7FF82685D7CB535293 /* Pods-SevereWxAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevereWxAppUITests-umbrella.h"; sourceTree = "<group>"; };
 		02731C87D654A3CB9188BA5E52181D7D /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		0816D8386210C4811E6EB08DC4B77773 /* Pods-SevereWxAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevereWxAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0AB3E8E7CA02F3B8DA9641B3FBDDF260 /* Pods-SevereWxAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0AF0D06BBC72E9246DBCF6837AF5A072 /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
-		0F005EF2FD1C80C7AB93FFA302ED2DD0 /* Pods-SevereWxAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevereWxAppTests-umbrella.h"; sourceTree = "<group>"; };
-		17B65D1CC7C58CACDE94AE48E89C1070 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05257E46DDC98088BB06534655CB05A5 /* Pods-SevereWxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxApp.release.xcconfig"; sourceTree = "<group>"; };
+		091FF099E6F7436F1CC960059CF349B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F18F47D457F3D23FD8B2A5D17A47AE2 /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		0F9310556BBE996AE628441592FB1181 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1466601D698B9835C52A867E51B72AEA /* Pods-SevereWxAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		1C94A8CA52FFB8FC7DFD906A41070C01 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		21BC1D1FD42B88D29A3390DC40AA5589 /* Pods-SevereWxApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxApp-frameworks.sh"; sourceTree = "<group>"; };
+		23396C99BA2A31E86D81823B166BF229 /* Pods-SevereWxApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevereWxApp-umbrella.h"; sourceTree = "<group>"; };
 		23FAE6F0A257BB0F03992EA84DA84E10 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
 		2F2BD98F5447EF02F90F33CDCEC3D64D /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
-		30D394B25C387E6F113A8D13CDEC7C53 /* Pods-SevereWxApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SevereWxApp.modulemap"; sourceTree = "<group>"; };
+		315A8CC665A567381A523CF7E1F1FC82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31CB47DA256C082F349ECF176DC2F591 /* Pods_SevereWxAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SevereWxAppTests.framework; path = "Pods-SevereWxAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34869F310C3549086C3FD7B6F6147245 /* Pods-SevereWxAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevereWxAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EE46D96A8EBE33CDE2C49304ED190D8 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		4050CBBAADD10A6C5C60FF81D7E1C6DB /* Pods-SevereWxApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxApp-frameworks.sh"; sourceTree = "<group>"; };
+		45F742A1D69EBC4836E2BCC6329667BB /* Pods-SevereWxAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevereWxAppTests-umbrella.h"; sourceTree = "<group>"; };
 		4882FFDE066756C915255FD07A1FAD4F /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6AC84C7709B4B21435C375CE2B53E329 /* Pods-SevereWxAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevereWxAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		493C28531A0966AD42753126036EE000 /* Pods-SevereWxAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevereWxAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B6CFC7B03B6C535950A508FDCFB6CF3 /* Pods-SevereWxAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SevereWxAppTests.modulemap"; sourceTree = "<group>"; };
+		55ED5CBD8A04E650311676FAAED04C4C /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
+		600BF5A80F712F35901DA783CD6D34CC /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
+		603932795277F67E7E6BF4B9998A5265 /* Pods-SevereWxAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B5453F7D40478218680A7A4C1FEDE92 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
-		7599F19BD96D00FEB00F781016869C41 /* Pods-SevereWxAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7D24BBF3F8A4D86DEF29CFCC23882641 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
-		7E9728289BEA7A340E5FA0330DFCEA16 /* Pods-SevereWxAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		80D3C06F75CF1E64B01AE23528316D1D /* Pods-SevereWxApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevereWxApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		84C28EDB31DA1A9A365AB369A0E414E0 /* Pods-SevereWxAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxAppUITests-resources.sh"; sourceTree = "<group>"; };
+		6BABFC5A2534C598FA3E2024EC733FFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D8915DBCDDDB2C1C0AE2CA092757D9 /* Pods-SevereWxAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevereWxAppTests-dummy.m"; sourceTree = "<group>"; };
+		750A332289B682FC699DFC04B57EE86A /* Pods-SevereWxApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxApp-resources.sh"; sourceTree = "<group>"; };
+		80FF9AB903EF76A26FE650C1E924689C /* Pods-SevereWxApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevereWxApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		855456BAC95D7EFABD952A197EE7CEDB /* Pods-SevereWxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxApp.debug.xcconfig"; sourceTree = "<group>"; };
 		85D13647FDA2437EA3379342CA203318 /* Pods_SevereWxAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SevereWxAppUITests.framework; path = "Pods-SevereWxAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		866DD74A6B6BC1E28215D845D47DACB5 /* Pods-SevereWxAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		8B81AF1882C87D14B4BF14DBF45878F7 /* Pods-SevereWxAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevereWxAppUITests-dummy.m"; sourceTree = "<group>"; };
-		90D7D3A167A5673A820C50298F9A6D84 /* Pods-SevereWxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxApp.release.xcconfig"; sourceTree = "<group>"; };
-		920A3057FB3D24556A431A6D21505820 /* Pods-SevereWxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxApp.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96F08AF3D7DA0D51DE4C50C8E7D28F1C /* Pods-SevereWxAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxAppUITests-frameworks.sh"; sourceTree = "<group>"; };
-		9DE4FCC3C946789795D0D39B17596A98 /* Pods-SevereWxApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevereWxApp-umbrella.h"; sourceTree = "<group>"; };
-		9EFB5F96E3DB8B10DABC9A9F6AEDD912 /* Pods-SevereWxAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SevereWxAppTests.modulemap"; sourceTree = "<group>"; };
-		A361090E479B32C4536C57DF728A9D4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEFBBD9A18556A17A3A295FB08B6DA87 /* Pods-SevereWxAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevereWxAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B47F0DC089CEA4EA0340AD23F288C902 /* Pods-SevereWxAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxAppTests-frameworks.sh"; sourceTree = "<group>"; };
-		B99AD526B4DBAB1A24E1D20A2E93419A /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		95325476A60ED02AC97DB5F6656A44F4 /* Pods-SevereWxAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxAppUITests-resources.sh"; sourceTree = "<group>"; };
+		9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A1C059A5E8F521589AD0EE3C10AC4B00 /* Pods-SevereWxApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SevereWxApp.modulemap"; sourceTree = "<group>"; };
+		B5C56EA7492EEFBABB69F466666283C9 /* Pods-SevereWxAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		B744F070375E903908CFB4843F6DAEA0 /* Pods-SevereWxAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA422D7A900E7B4C34ECFF07D347689F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		BBA8CFC19BD40A9A68EAC2E5913B4ABB /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
-		BE2275CDEE9169B845DCA23EEBF94FF5 /* Pods-SevereWxAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevereWxAppTests-dummy.m"; sourceTree = "<group>"; };
-		D27EE645D7D9F234228DEA1230E9F223 /* Pods-SevereWxAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevereWxAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D963EE1566FDD18A07D1B9F1C01BB112 /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Toast.modulemap; sourceTree = "<group>"; };
-		DE5AE2A918A5F0ECAA39672BC8D8C04C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E533FB775922F0B2478729BFFA170C1C /* Pods-SevereWxApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevereWxApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5589199EB1D72A7CCBB1F6D169E3833 /* Pods-SevereWxAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevereWxAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		E5D93B277FF8DB28F25BA9945A1A6DD4 /* Pods-SevereWxApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevereWxApp-dummy.m"; sourceTree = "<group>"; };
-		E6593B9001A87F2DC8CE5DBDBCF41715 /* Pods-SevereWxAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxAppTests-resources.sh"; sourceTree = "<group>"; };
+		C3103C84F1AC1F62B7C833831F46514A /* Pods-SevereWxAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C69911BF4DF7A53A87B48611F35092C4 /* Pods-SevereWxAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevereWxAppUITests-dummy.m"; sourceTree = "<group>"; };
+		CD925BBB0740ACD429FAFAC8C85C8E60 /* Pods-SevereWxApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevereWxApp-dummy.m"; sourceTree = "<group>"; };
+		D10FE0700720181E05703736CBD0CBAC /* Pods-SevereWxAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevereWxAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3DB025E504F3750334C9CAB723ED5FF /* Pods-SevereWxAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SevereWxAppUITests.modulemap"; sourceTree = "<group>"; };
+		DF374DD2FA3CD437FA741A20CB122E5B /* Pods-SevereWxAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxAppTests-resources.sh"; sourceTree = "<group>"; };
+		E84B1B49B5EB8E740683DAE36061EC1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C977C6C399DCDB5636E27457CC87C3 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0FD6C800820C43EF5A7DE2252638324 /* Pods-SevereWxAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SevereWxAppUITests.modulemap"; sourceTree = "<group>"; };
-		F4EAD10B900F47BDEB431FA8382800DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F678C1571C21468DD2A02BCA1A7279F1 /* Pods-SevereWxApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevereWxApp-resources.sh"; sourceTree = "<group>"; };
+		EC79DD7663D882EA893AB22A0810AE9D /* Pods-SevereWxAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevereWxAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED6FD604C96569582F05890CE2739E22 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		EE3D6F5A55A5025F3159FC36BFD116FC /* Pods-SevereWxApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevereWxApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE7BEC4193D9C33ECA704298B3E55FE4 /* Pods-SevereWxAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevereWxAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8A51C6859B328EF773D145E84A9CD6F /* Pods_SevereWxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SevereWxApp.framework; path = "Pods-SevereWxApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,16 +107,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBE3C0C0AC117A4C397C61DF1D9E434 /* Foundation.framework in Frameworks */,
-				D3AFCEB8CD6F514A740B4250E1BFA65D /* QuartzCore.framework in Frameworks */,
+				53B0497B0BADA9D08480D9944EA031AE /* Foundation.framework in Frameworks */,
+				00F47AD87B42FA81759487C4B4D197EE /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		827D4FC3491C69875BF06093F981113D /* Frameworks */ = {
+		7FB294CBEA8895B7EDED0576771C7D3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41507FBC1E9030091F41ABA000F31163 /* Foundation.framework in Frameworks */,
+				381A1F61186C6D56F8A301A2CF10D576 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,15 +124,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBFDF741CFB969C9F28D47B0D4F35BDB /* Foundation.framework in Frameworks */,
+				4D51B71DC3B29E30B3614A0A63AD919E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF70EE5D48458A92CF0EE950DB6DFF9 /* Frameworks */ = {
+		EEDCB7613A1EB255504A070331A5C27E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A93370C625978E1D3E8610B62F707E /* Foundation.framework in Frameworks */,
+				990AA5176A6102E06C185DE5C4102CA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +163,7 @@
 				2F2BD98F5447EF02F90F33CDCEC3D64D /* Toast.h */,
 				6B5453F7D40478218680A7A4C1FEDE92 /* UIView+Toast.h */,
 				23FAE6F0A257BB0F03992EA84DA84E10 /* UIView+Toast.m */,
-				3E3AFDADBCE2CBE137AA1F5DA7FAF321 /* Support Files */,
+				F41724DEA80AB7A3BAD10B427105884F /* Support Files */,
 			);
 			name = Toast;
 			path = Toast;
@@ -166,72 +180,49 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E3AFDADBCE2CBE137AA1F5DA7FAF321 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE5AE2A918A5F0ECAA39672BC8D8C04C /* Info.plist */,
-				D963EE1566FDD18A07D1B9F1C01BB112 /* Toast.modulemap */,
-				0AF0D06BBC72E9246DBCF6837AF5A072 /* Toast.xcconfig */,
-				B99AD526B4DBAB1A24E1D20A2E93419A /* Toast-dummy.m */,
-				7D24BBF3F8A4D86DEF29CFCC23882641 /* Toast-prefix.pch */,
-				BBA8CFC19BD40A9A68EAC2E5913B4ABB /* Toast-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast";
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+				56933BB70C933E0BF63210DD87D76AD0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		500FAA64B94A7F5EAC4055A39228900D /* Pods-SevereWxAppTests */ = {
+		56933BB70C933E0BF63210DD87D76AD0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				17B65D1CC7C58CACDE94AE48E89C1070 /* Info.plist */,
-				9EFB5F96E3DB8B10DABC9A9F6AEDD912 /* Pods-SevereWxAppTests.modulemap */,
-				D27EE645D7D9F234228DEA1230E9F223 /* Pods-SevereWxAppTests-acknowledgements.markdown */,
-				6AC84C7709B4B21435C375CE2B53E329 /* Pods-SevereWxAppTests-acknowledgements.plist */,
-				BE2275CDEE9169B845DCA23EEBF94FF5 /* Pods-SevereWxAppTests-dummy.m */,
-				B47F0DC089CEA4EA0340AD23F288C902 /* Pods-SevereWxAppTests-frameworks.sh */,
-				E6593B9001A87F2DC8CE5DBDBCF41715 /* Pods-SevereWxAppTests-resources.sh */,
-				0F005EF2FD1C80C7AB93FFA302ED2DD0 /* Pods-SevereWxAppTests-umbrella.h */,
-				7599F19BD96D00FEB00F781016869C41 /* Pods-SevereWxAppTests.debug.xcconfig */,
-				866DD74A6B6BC1E28215D845D47DACB5 /* Pods-SevereWxAppTests.release.xcconfig */,
+				0F9310556BBE996AE628441592FB1181 /* Foundation.framework */,
+				9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */,
 			);
-			name = "Pods-SevereWxAppTests";
-			path = "Target Support Files/Pods-SevereWxAppTests";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		584B8A1475D641F3D20E1B6AECCB4D53 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CACEB3DE5BF5CC26E439473695E3EC61 /* Pods-SevereWxApp */,
-				500FAA64B94A7F5EAC4055A39228900D /* Pods-SevereWxAppTests */,
-				6EFDECC44C5DDDCE9144F055284D3B08 /* Pods-SevereWxAppUITests */,
+				D6719F5FA74D373BCC2DEDA2E2CF4DC8 /* Pods-SevereWxApp */,
+				646D1CC3076DC777D85B8AB09F4CF348 /* Pods-SevereWxAppTests */,
+				F8F17B251D96577770FF73B04FAE3B93 /* Pods-SevereWxAppUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6EFDECC44C5DDDCE9144F055284D3B08 /* Pods-SevereWxAppUITests */ = {
+		646D1CC3076DC777D85B8AB09F4CF348 /* Pods-SevereWxAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				F4EAD10B900F47BDEB431FA8382800DE /* Info.plist */,
-				F0FD6C800820C43EF5A7DE2252638324 /* Pods-SevereWxAppUITests.modulemap */,
-				AEFBBD9A18556A17A3A295FB08B6DA87 /* Pods-SevereWxAppUITests-acknowledgements.markdown */,
-				0816D8386210C4811E6EB08DC4B77773 /* Pods-SevereWxAppUITests-acknowledgements.plist */,
-				8B81AF1882C87D14B4BF14DBF45878F7 /* Pods-SevereWxAppUITests-dummy.m */,
-				96F08AF3D7DA0D51DE4C50C8E7D28F1C /* Pods-SevereWxAppUITests-frameworks.sh */,
-				84C28EDB31DA1A9A365AB369A0E414E0 /* Pods-SevereWxAppUITests-resources.sh */,
-				E5589199EB1D72A7CCBB1F6D169E3833 /* Pods-SevereWxAppUITests-umbrella.h */,
-				7E9728289BEA7A340E5FA0330DFCEA16 /* Pods-SevereWxAppUITests.debug.xcconfig */,
-				0AB3E8E7CA02F3B8DA9641B3FBDDF260 /* Pods-SevereWxAppUITests.release.xcconfig */,
+				091FF099E6F7436F1CC960059CF349B4 /* Info.plist */,
+				4B6CFC7B03B6C535950A508FDCFB6CF3 /* Pods-SevereWxAppTests.modulemap */,
+				D10FE0700720181E05703736CBD0CBAC /* Pods-SevereWxAppTests-acknowledgements.markdown */,
+				EE7BEC4193D9C33ECA704298B3E55FE4 /* Pods-SevereWxAppTests-acknowledgements.plist */,
+				71D8915DBCDDDB2C1C0AE2CA092757D9 /* Pods-SevereWxAppTests-dummy.m */,
+				B5C56EA7492EEFBABB69F466666283C9 /* Pods-SevereWxAppTests-frameworks.sh */,
+				DF374DD2FA3CD437FA741A20CB122E5B /* Pods-SevereWxAppTests-resources.sh */,
+				45F742A1D69EBC4836E2BCC6329667BB /* Pods-SevereWxAppTests-umbrella.h */,
+				C3103C84F1AC1F62B7C833831F46514A /* Pods-SevereWxAppTests.debug.xcconfig */,
+				603932795277F67E7E6BF4B9998A5265 /* Pods-SevereWxAppTests.release.xcconfig */,
 			);
-			name = "Pods-SevereWxAppUITests";
-			path = "Target Support Files/Pods-SevereWxAppUITests";
+			name = "Pods-SevereWxAppTests";
+			path = "Target Support Files/Pods-SevereWxAppTests";
 			sourceTree = "<group>";
 		};
 		6F503F5560B29443B3C23276832DF8FE /* Frameworks */ = {
@@ -261,15 +252,6 @@
 			name = Base;
 			sourceTree = "<group>";
 		};
-		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
-				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		C1A9072D93FDA2C72C5A4B923E61C3A8 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,30 +262,30 @@
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		CACEB3DE5BF5CC26E439473695E3EC61 /* Pods-SevereWxApp */ = {
-			isa = PBXGroup;
-			children = (
-				A361090E479B32C4536C57DF728A9D4B /* Info.plist */,
-				30D394B25C387E6F113A8D13CDEC7C53 /* Pods-SevereWxApp.modulemap */,
-				E533FB775922F0B2478729BFFA170C1C /* Pods-SevereWxApp-acknowledgements.markdown */,
-				80D3C06F75CF1E64B01AE23528316D1D /* Pods-SevereWxApp-acknowledgements.plist */,
-				E5D93B277FF8DB28F25BA9945A1A6DD4 /* Pods-SevereWxApp-dummy.m */,
-				21BC1D1FD42B88D29A3390DC40AA5589 /* Pods-SevereWxApp-frameworks.sh */,
-				F678C1571C21468DD2A02BCA1A7279F1 /* Pods-SevereWxApp-resources.sh */,
-				9DE4FCC3C946789795D0D39B17596A98 /* Pods-SevereWxApp-umbrella.h */,
-				920A3057FB3D24556A431A6D21505820 /* Pods-SevereWxApp.debug.xcconfig */,
-				90D7D3A167A5673A820C50298F9A6D84 /* Pods-SevereWxApp.release.xcconfig */,
-			);
-			name = "Pods-SevereWxApp";
-			path = "Target Support Files/Pods-SevereWxApp";
-			sourceTree = "<group>";
-		};
 		CB656EC6CB0F0165E54D8C238E1AA404 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				02731C87D654A3CB9188BA5E52181D7D /* GoogleMaps.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		D6719F5FA74D373BCC2DEDA2E2CF4DC8 /* Pods-SevereWxApp */ = {
+			isa = PBXGroup;
+			children = (
+				315A8CC665A567381A523CF7E1F1FC82 /* Info.plist */,
+				A1C059A5E8F521589AD0EE3C10AC4B00 /* Pods-SevereWxApp.modulemap */,
+				EE3D6F5A55A5025F3159FC36BFD116FC /* Pods-SevereWxApp-acknowledgements.markdown */,
+				80FF9AB903EF76A26FE650C1E924689C /* Pods-SevereWxApp-acknowledgements.plist */,
+				CD925BBB0740ACD429FAFAC8C85C8E60 /* Pods-SevereWxApp-dummy.m */,
+				4050CBBAADD10A6C5C60FF81D7E1C6DB /* Pods-SevereWxApp-frameworks.sh */,
+				750A332289B682FC699DFC04B57EE86A /* Pods-SevereWxApp-resources.sh */,
+				23396C99BA2A31E86D81823B166BF229 /* Pods-SevereWxApp-umbrella.h */,
+				855456BAC95D7EFABD952A197EE7CEDB /* Pods-SevereWxApp.debug.xcconfig */,
+				05257E46DDC98088BB06534655CB05A5 /* Pods-SevereWxApp.release.xcconfig */,
+			);
+			name = "Pods-SevereWxApp";
+			path = "Target Support Files/Pods-SevereWxApp";
 			sourceTree = "<group>";
 		};
 		D80DE0A7668A0DE5DAC441A548519471 /* Frameworks */ = {
@@ -313,6 +295,38 @@
 				4882FFDE066756C915255FD07A1FAD4F /* GoogleMapsCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41724DEA80AB7A3BAD10B427105884F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E84B1B49B5EB8E740683DAE36061EC1E /* Info.plist */,
+				55ED5CBD8A04E650311676FAAED04C4C /* Toast.modulemap */,
+				0F18F47D457F3D23FD8B2A5D17A47AE2 /* Toast.xcconfig */,
+				3EE46D96A8EBE33CDE2C49304ED190D8 /* Toast-dummy.m */,
+				ED6FD604C96569582F05890CE2739E22 /* Toast-prefix.pch */,
+				600BF5A80F712F35901DA783CD6D34CC /* Toast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		F8F17B251D96577770FF73B04FAE3B93 /* Pods-SevereWxAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BABFC5A2534C598FA3E2024EC733FFF /* Info.plist */,
+				D3DB025E504F3750334C9CAB723ED5FF /* Pods-SevereWxAppUITests.modulemap */,
+				493C28531A0966AD42753126036EE000 /* Pods-SevereWxAppUITests-acknowledgements.markdown */,
+				34869F310C3549086C3FD7B6F6147245 /* Pods-SevereWxAppUITests-acknowledgements.plist */,
+				C69911BF4DF7A53A87B48611F35092C4 /* Pods-SevereWxAppUITests-dummy.m */,
+				1466601D698B9835C52A867E51B72AEA /* Pods-SevereWxAppUITests-frameworks.sh */,
+				95325476A60ED02AC97DB5F6656A44F4 /* Pods-SevereWxAppUITests-resources.sh */,
+				0046A9B183DF1B7FF82685D7CB535293 /* Pods-SevereWxAppUITests-umbrella.h */,
+				B744F070375E903908CFB4843F6DAEA0 /* Pods-SevereWxAppUITests.debug.xcconfig */,
+				EC79DD7663D882EA893AB22A0810AE9D /* Pods-SevereWxAppUITests.release.xcconfig */,
+			);
+			name = "Pods-SevereWxAppUITests";
+			path = "Target Support Files/Pods-SevereWxAppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,11 +340,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7257B825AE043E4DE901E828526B3110 /* Headers */ = {
+		6A956469D655B2CC868144309DD6984F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9CB0DF1172CD9C76C799576D28F5D47 /* Pods-SevereWxAppTests-umbrella.h in Headers */,
+				8C17EC05C9CA2879EF64676A47371E2A /* Pods-SevereWxAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7921938E39660605C5CEE8C4E55ACD62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4612D6E10B2048A6DE7015D9EBF7FD /* Pods-SevereWxAppTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,14 +363,6 @@
 				1E03283A5602087FDDAA5BAB68D7E6ED /* Toast-umbrella.h in Headers */,
 				C66621342CA19C109A6E8D301B297203 /* Toast.h in Headers */,
 				1BB3C8FB49A35A6CA970402480082FCC /* UIView+Toast.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD3A1F1FEF6640D4B5C605C47273EF70 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE7D2F8F6B41560CDF17A75830E27804 /* Pods-SevereWxAppUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,34 +386,36 @@
 			productReference = E8C977C6C399DCDB5636E27457CC87C3 /* Toast.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65A9252DF958862989360B6E86C6F2A6 /* Pods-SevereWxAppTests */ = {
+		A2B6DED90C965348141C1CC30EFDB602 /* Pods-SevereWxAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1F2D8EDC99DF4E2F022C46A650CE4C1 /* Build configuration list for PBXNativeTarget "Pods-SevereWxAppTests" */;
+			buildConfigurationList = E217AAEA2149CA43FDF6F3C633E06A47 /* Build configuration list for PBXNativeTarget "Pods-SevereWxAppTests" */;
 			buildPhases = (
-				9D6E964C65E1F8ED26C1F2831DBC9611 /* Sources */,
-				EBF70EE5D48458A92CF0EE950DB6DFF9 /* Frameworks */,
-				7257B825AE043E4DE901E828526B3110 /* Headers */,
+				EB7A4C0BEFDECD8CC69953BCDAA8C1AD /* Sources */,
+				EEDCB7613A1EB255504A070331A5C27E /* Frameworks */,
+				7921938E39660605C5CEE8C4E55ACD62 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5ECF383BE6399F4492A5A80275A11A96 /* PBXTargetDependency */,
 			);
 			name = "Pods-SevereWxAppTests";
 			productName = "Pods-SevereWxAppTests";
 			productReference = 31CB47DA256C082F349ECF176DC2F591 /* Pods_SevereWxAppTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		702FE7A93CC836A7FFF99D92167348D0 /* Pods-SevereWxAppUITests */ = {
+		C1AB9F6DE136767440D1ACACD337A10F /* Pods-SevereWxAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B149C8A4E0600700D2453B191C04D2 /* Build configuration list for PBXNativeTarget "Pods-SevereWxAppUITests" */;
+			buildConfigurationList = BD7835BC52302CF7A5EDEDF427C9F30A /* Build configuration list for PBXNativeTarget "Pods-SevereWxAppUITests" */;
 			buildPhases = (
-				D1451A680CA5BA55465720878DBFEF62 /* Sources */,
-				827D4FC3491C69875BF06093F981113D /* Frameworks */,
-				BD3A1F1FEF6640D4B5C605C47273EF70 /* Headers */,
+				B8D485E46422B983DEF5E8C886F1A644 /* Sources */,
+				7FB294CBEA8895B7EDED0576771C7D3C /* Frameworks */,
+				6A956469D655B2CC868144309DD6984F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				82279F1CEFB900BAAD933C46344CEB9F /* PBXTargetDependency */,
 			);
 			name = "Pods-SevereWxAppUITests";
 			productName = "Pods-SevereWxAppUITests";
@@ -430,8 +446,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -446,8 +462,8 @@
 			projectRoot = "";
 			targets = (
 				EB713625D7FA3B68A1DBDEEBFAC7CD50 /* Pods-SevereWxApp */,
-				65A9252DF958862989360B6E86C6F2A6 /* Pods-SevereWxAppTests */,
-				702FE7A93CC836A7FFF99D92167348D0 /* Pods-SevereWxAppUITests */,
+				A2B6DED90C965348141C1CC30EFDB602 /* Pods-SevereWxAppTests */,
+				C1AB9F6DE136767440D1ACACD337A10F /* Pods-SevereWxAppUITests */,
 				2D643E384923B0AF8AAD31B1EE66A483 /* Toast */,
 			);
 		};
@@ -471,25 +487,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D6E964C65E1F8ED26C1F2831DBC9611 /* Sources */ = {
+		B8D485E46422B983DEF5E8C886F1A644 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9E19D569F36B0EBBC4B8CAC9AACE32 /* Pods-SevereWxAppTests-dummy.m in Sources */,
+				9839F84221289360442DA25F9406C521 /* Pods-SevereWxAppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1451A680CA5BA55465720878DBFEF62 /* Sources */ = {
+		EB7A4C0BEFDECD8CC69953BCDAA8C1AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1770072BFB74732DDC806E8FBED2F4B2 /* Pods-SevereWxAppUITests-dummy.m in Sources */,
+				EF735DDCC46DDBDEA87D24961F7F2E90 /* Pods-SevereWxAppTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5ECF383BE6399F4492A5A80275A11A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SevereWxApp";
+			target = EB713625D7FA3B68A1DBDEEBFAC7CD50 /* Pods-SevereWxApp */;
+			targetProxy = F8CA023CF904FA05E352A26D5441EF37 /* PBXContainerItemProxy */;
+		};
+		82279F1CEFB900BAAD933C46344CEB9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SevereWxApp";
+			target = EB713625D7FA3B68A1DBDEEBFAC7CD50 /* Pods-SevereWxApp */;
+			targetProxy = D14C4C93CBA6581534AB36F798B5EFAB /* PBXContainerItemProxy */;
+		};
 		B029DE1AF947E5A4A6D84C9ADC15102B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Toast;
@@ -499,7 +527,277 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+		0CB5A2E2A96F1357C6146B5A3A754A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B744F070375E903908CFB4843F6DAEA0 /* Pods-SevereWxAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxAppUITests/Pods-SevereWxAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73F652CB90FC0C6BFFBEC2C93B48D782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC79DD7663D882EA893AB22A0810AE9D /* Pods-SevereWxAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxAppUITests/Pods-SevereWxAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		789381585621B5187924ACF606A7AE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855456BAC95D7EFABD952A197EE7CEDB /* Pods-SevereWxApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxApp/Pods-SevereWxApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CB0246F90973A308AF3B4DD3AB843CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3103C84F1AC1F62B7C833831F46514A /* Pods-SevereWxAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxAppTests/Pods-SevereWxAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BFF0D4F2811DA2FD72EA29867EF6BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F18F47D457F3D23FD8B2A5D17A47AE2 /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A06E4C1525E949A9FE01E48190854758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603932795277F67E7E6BF4B9998A5265 /* Pods-SevereWxAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxAppTests/Pods-SevereWxAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A77A7DA35BFDA0FC944C88AA3D9264EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05257E46DDC98088BB06534655CB05A5 /* Pods-SevereWxApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxApp/Pods-SevereWxApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACC3E82E8D0BAA240778E4BABF3E26F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F18F47D457F3D23FD8B2A5D17A47AE2 /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD76D91FBB3569774B6E7AB023932D1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -509,10 +807,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -520,6 +820,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -528,6 +829,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -548,51 +850,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		483B0CB5DE494F1D59070042E9EACCCD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 866DD74A6B6BC1E28215D845D47DACB5 /* Pods-SevereWxAppTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxAppTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxAppTests/Pods-SevereWxAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SevereWxAppTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+		D004329E236DC147B97EF965D57304EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -602,10 +870,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -613,6 +883,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -621,6 +892,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -638,237 +910,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		9407B21E1EC14BF6BE3EC1911325D8F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7599F19BD96D00FEB00F781016869C41 /* Pods-SevereWxAppTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxAppTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxAppTests/Pods-SevereWxAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SevereWxAppTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A8D0B3C7CB118E34576F43EC98E61573 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 920A3057FB3D24556A431A6D21505820 /* Pods-SevereWxApp.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxApp/Pods-SevereWxApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SevereWxApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AD4C800B0C9FD7506ABBAFD2AB35BA36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AF0D06BBC72E9246DBCF6837AF5A072 /* Toast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
-				PRODUCT_NAME = Toast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B898D087464A73CB656A03CC288C3AE0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90D7D3A167A5673A820C50298F9A6D84 /* Pods-SevereWxApp.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxApp/Pods-SevereWxApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SevereWxApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EB5B16E895B9B547CC33A00D2FB29783 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E9728289BEA7A340E5FA0330DFCEA16 /* Pods-SevereWxAppUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxAppUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxAppUITests/Pods-SevereWxAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SevereWxAppUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EC85E0E2801BC3A3A30103B192C1EF5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AB3E8E7CA02F3B8DA9641B3FBDDF260 /* Pods-SevereWxAppUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevereWxAppUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevereWxAppUITests/Pods-SevereWxAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SevereWxAppUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FEEADB528945857C6C1552D85BB20C6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AF0D06BBC72E9246DBCF6837AF5A072 /* Toast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
-				PRODUCT_NAME = Toast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -876,8 +924,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
-				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+				CD76D91FBB3569774B6E7AB023932D1D /* Debug */,
+				D004329E236DC147B97EF965D57304EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -885,17 +933,8 @@
 		40FF0A07DD30DFCA43857EAF4DA9B267 /* Build configuration list for PBXNativeTarget "Pods-SevereWxApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8D0B3C7CB118E34576F43EC98E61573 /* Debug */,
-				B898D087464A73CB656A03CC288C3AE0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69B149C8A4E0600700D2453B191C04D2 /* Build configuration list for PBXNativeTarget "Pods-SevereWxAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB5B16E895B9B547CC33A00D2FB29783 /* Debug */,
-				EC85E0E2801BC3A3A30103B192C1EF5A /* Release */,
+				789381585621B5187924ACF606A7AE4C /* Debug */,
+				A77A7DA35BFDA0FC944C88AA3D9264EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -903,17 +942,26 @@
 		83785B6A0F97086019743D1C5E17460E /* Build configuration list for PBXNativeTarget "Toast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEEADB528945857C6C1552D85BB20C6B /* Debug */,
-				AD4C800B0C9FD7506ABBAFD2AB35BA36 /* Release */,
+				9BFF0D4F2811DA2FD72EA29867EF6BF6 /* Debug */,
+				ACC3E82E8D0BAA240778E4BABF3E26F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1F2D8EDC99DF4E2F022C46A650CE4C1 /* Build configuration list for PBXNativeTarget "Pods-SevereWxAppTests" */ = {
+		BD7835BC52302CF7A5EDEDF427C9F30A /* Build configuration list for PBXNativeTarget "Pods-SevereWxAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9407B21E1EC14BF6BE3EC1911325D8F9 /* Debug */,
-				483B0CB5DE494F1D59070042E9EACCCD /* Release */,
+				0CB5A2E2A96F1357C6146B5A3A754A91 /* Debug */,
+				73F652CB90FC0C6BFFBEC2C93B48D782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E217AAEA2149CA43FDF6F3C633E06A47 /* Build configuration list for PBXNativeTarget "Pods-SevereWxAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB0246F90973A308AF3B4DD3AB843CD /* Debug */,
+				A06E4C1525E949A9FE01E48190854758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
