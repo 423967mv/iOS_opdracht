@@ -25,12 +25,17 @@ class ThunderstormsViewController: UIViewController, UITableViewDelegate, UITabl
                 expanded: false),
         Section(obsType: "🎾 Large Hail",
                 obsTypeGradations: ["2-5cm", "5-10cm", "10cm+"],
-                expanded: true),
+                expanded: false),
         Section(obsType: "💨 Wind Gusts",
                 obsTypeGradations: ["Large branches downed", "Trees / power lines downed", "Buildings damaged"],
+                expanded: true),
+        Section(obsType: "🌧️ Heavy Rain",
+                obsTypeGradations: ["Limited visibility", "Flooding"],
+                expanded: true),
+        Section(obsType: "⚡Lightning Damage",
+                obsTypeGradations: ["Power outage", "Fire"],
                 expanded: true)
     ]
-    
     // Haal huidige locatie op voor doorgeven observatie
     func determineMyCurrentLocation() {
         locationManager = CLLocationManager()

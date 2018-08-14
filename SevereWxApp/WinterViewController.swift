@@ -23,6 +23,9 @@ class WinterViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 expanded: true),
         Section(obsType: "⛸️ Ice",
                 obsTypeGradations: ["Refreezing snow", "Ice Pellets"],
+                expanded: true),
+        Section(obsType: "🌧️ Heavy Rain",
+                obsTypeGradations: ["Limited visibility", "Flooding"],
                 expanded: true)
     ]
     

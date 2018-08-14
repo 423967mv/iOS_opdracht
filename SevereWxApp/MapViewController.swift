@@ -78,6 +78,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             return UIImage(named: "hail.png")!
         case "💨 Wind Gusts":
             return UIImage(named: "wind.png")!
+        case "⚡Lightning Damage":
+            return UIImage(named: "lightning.png")!
+        case "🌧️ Heavy Rain":
+            return UIImage(named: "rain.png")!
         case "❄️ Snowfall":
             return UIImage(named: "snow.png")!
         case "⛸️ Ice":
