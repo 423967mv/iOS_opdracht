@@ -8,7 +8,8 @@ target 'SevereWxApp' do
   # Pods for SevereWxApp
   pod ‘GoogleMaps’
   pod 'Toast', '~> 4.0.0'
-
+  pod ‘RealmSwift’
+  
   target 'SevereWxAppTests' do
     inherit! :search_paths
     # Pods for testing
